@@ -1,4 +1,4 @@
-from user import (
+from .user import (
     User, GoogleProxyGroup, Project, Group, UserToGroup, AccessPrivilege,
     IdentityProvider, Application, Certificate,
     CloudProvider, StorageAccess, Bucket,
