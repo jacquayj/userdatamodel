@@ -384,6 +384,7 @@ class IdentityProvider(Base):
     description = Column(String)
 
     google = "google"
+    bms = "bms"
     itrust = "itrust"
     fence = "fence"
     orcid = "orcid"
